@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Grid_introduction_masterclass</title>
+
+<style>
+    body{
+        font-family: arial,sans-serif;
+        line-height: 1.6;
+        margin:0;
+        padding:20px;
+        background-color: white;
+            }
+    h1,h2{
+        color:#333;
+
+    }   
+    
+    .container{
+        background-color:#fff;
+        border:2px solid #333;
+        margin-bottom:20px;
+        padding:10px;
+
+
+    }
+    .grid_container{
+        display:grid;
+        gap:10px;
+        background-color:#ddd;
+        padding:10px;
+        margin-bottom:10px;
+
+
+    }
+    .Box{
+        background-color: #3498db;
+        color:white;
+        padding:20px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .box:nth-child(even){
+        background-color: #e74c3c;
+    }
+</style>
+
+
+</head>
+
+<body>
+    <h1> Css grid masterclass demo</h1>
+    <div class ="container">
+        <h2>1.Basic grid (3x3)</h2>
+        <div class="grid_container"
+     style="grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,100px);">
+
+            
+            <div class="Box">1</div>
+            <div class="Box">2</div>
+            <div class="Box">3</div>
+            <div class="Box">4</div>
+            <div class="Box">5</div>
+            <div class="Box">6</div>
+            <div class="Box">7</div>
+        </div>
+    </div>
+
+</body>
+</html>

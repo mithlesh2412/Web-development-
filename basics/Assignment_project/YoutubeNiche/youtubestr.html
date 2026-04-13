@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background-color: #0f172a;
+            font-family: Arial, sans-serif;
+            color:white;
+            padding:30px;
+        }
+
+        .container{
+            border:3px solid white;
+            padding:20px;
+        }
+
+        .carousel{
+            border:3px solid white;
+            height:200px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-bottom:30px;
+        }
+
+        .cards{       
+            display:flex;
+            justify-content: space-between;
+            margin-bottom:30px;
+        }
+
+        .card{
+            border:2px solid white;
+            width:30%;
+            padding:20px;
+            text-align: center;
+        }
+
+        .card button{
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #2563eb;
+            border:none;
+            color:white;
+            cursor:pointer;
+            border-radius: 5px;
+        }
+
+        .card button:hover{
+            background-color: #1d4ed8;
+        }
+
+        .footer{
+            border: 3px solid white;
+            text-align: center;
+            padding:10px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="carousel">
+            <h1>Carousel</h1>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>HTML Tutorial</h2>
+                <p>Beginner Guide</p>
+                <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">
+                    <button>Watch Now</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>CSS Tutorial</h2>
+                <p>Complete Course</p>
+                <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">
+                    <button>Watch Now</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>Flexbox Tutorial</h2>
+                <p>Layout Mastery</p>
+                <a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank">
+                    <button>Watch Now</button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>Copyright - Mithlesh</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

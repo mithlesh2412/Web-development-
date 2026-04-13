@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* simple selector */
+        h1 {
+            color: lightblue;
+        }
+
+        p {
+            background-color: lightpink;
+        }
+
+        #unique {
+            text-decoration: underline;
+
+        }
+
+        .common {
+            background-color: lightgreen;
+        }  
+        
+        /* combinator selector */
+        .common p {
+            color: lightcoral;
+        }
+
+        .common > p {
+            background-color: yellow;
+
+        }
+        .common + div {
+            color:red;
+        }
+
+        .common ~ div {
+            background-color: lightgreen;
+        }
+
+        /* attribute selector */
+
+        label[for]{
+            color: pink;
+        }
+        label [for ="name"]{
+            background-color: orange;
+        }
+        input[type]
+        {
+            background-color:black
+        }
+
+    </style>
+    <title>
+        sample project </title>
+    </title>
+</head>
+
+<body>
+    <form>
+        <label for="name">NAME</label>
+        <input type="text" id="name">
+        <label for="email">EMAIL</label>
+        <input type="email" id="email">
+        <label for="cont">CONTACT</label>
+        <input type="number" id="cont">
+        <label for="pass">PASSWORD</label>
+        <input type="password" id="pass">
+    </form>
+
+
+
+    <div class="common common2">
+        <div class="something1">something </div>
+        <div class="something2">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odit commodi inventore dolores
+                adipisci ab ratione sed, totam accusantium tempora eligendi, repellendus eum, pariatur quod
+                repudiandae culpa suscipit minus laboriosam.</p>
+        </div>
+        <div class="something3"></div>
+        <p>hello!!</p>
+        </div>
+        <div class = "sib">Im sibling</div>
+
+    <h1>Naresh Paswan</h1>
+    <h2>Avdhesh Paswan</h2>
+    <h3>Mithlesh Paswan</h3>
+    <h4>Santosh Paswan</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam reiciendis voluptatem tempora quos obcaecati,
+        quasi maiores harum recusandae distinctio possimus at commodi repellat mollitia consequatur porro corporis
+        veniam cumque.</p>
+
+    <a href="https://www.google.com/">Google</a>
+
+    <!--division-->
+    <div id="unique">
+        Hello everyone
+        <p> Hey everyone how are you all ,this is Mithlesh Paswan</p>
+        <p> Following are my details :</p>
+
+        
+        </div>
+
+        <div></div>
+        <div class=common>hello</div>
+        <div></div>
+        <div class="common">diff hello</div>
+
+
+    </div>
+    <ul>
+        <p><u>FRIENDS</u></p>
+        <li>CHANDAN</li>
+        <li>ANKIT</li>
+        <li>SONU</li>
+        <li>ROHIT</li>
+    </ul>
+    <ol>
+        <p> <u>SPORTS</u></p>
+        <li>FOOTBALL</li>
+        <li>CRICKET</li>
+        <li>BASKETBALL</li>
+        <li>KABBADI</li>
+    </ol>
+
+    <span> Content filling tag</span>
+    <img width="100"
+        src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg"
+        alt="natural pic">
+    
+</body>
+
+</html>
