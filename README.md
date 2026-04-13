@@ -88,7 +88,7 @@ This is a personal learning repository, but suggestions and feedback are always 
 ## 📬 Connect With Me
 
 * GitHub: https://github.com/mithlesh2412
-* LinkedIn: (Add your link here)
+* LinkedIn: https://www.linkedin.com/in/mithlesh-paswan-4aa79630a?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
